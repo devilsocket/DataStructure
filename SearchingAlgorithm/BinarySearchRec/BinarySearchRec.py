@@ -13,5 +13,5 @@ def search(arr,start_pos,end_pos,x):
 		return False
 
 if __name__ == '__main__':
-	arr = ['a','l','g','o','r','i','t','h','m']
-	print(search(arr,0,len(arr)-1,'a'))
+	arr = range(100)
+	print(search(arr,0,len(arr)-1,1))
