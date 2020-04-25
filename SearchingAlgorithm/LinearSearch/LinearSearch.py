@@ -10,7 +10,7 @@ class Search:
 		for i in range(self.length):
 			if self.x == self.array[i]:
 				return i
-		return 0
+		return False
 
 
 
@@ -20,7 +20,7 @@ def search(arr,x):
 	for i in range(0,l):
 		if x == arr[i]:
 			return i
-	return 0
+	return False
 
 
 if __name__ == '__main__':
